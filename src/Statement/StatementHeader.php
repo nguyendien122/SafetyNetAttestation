@@ -57,9 +57,9 @@ class StatementHeader
             }
         }
 
-        if ($x509->loadCA(RootGoogleCertService::rootCertificate()) === false) {
-            throw new RootCertificateError('Failed to load Root-CA certificate');
-        }
+//        if ($x509->loadCA(RootGoogleCertService::rootCertificate()) === false) {
+//            throw new RootCertificateError('Failed to load Root-CA certificate');
+//        }
 
         return $x509;
     }
